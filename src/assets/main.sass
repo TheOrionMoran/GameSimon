@@ -1,0 +1,74 @@
+.main
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 70vh
+    flex-direction: column
+    button
+        cursor: pointer
+.buttonWrapper
+    overflow: hidden
+    border-radius: 100%
+    box-shadow: 2px 1px 12px #aaa
+    width: 300px
+    height: 300px
+    button
+        height: 150px
+        width: 150px
+        border: 0
+        transition: 0.1s
+        &:hover
+            border: 3px solid white
+    .click
+        border: 3px solid #43ffb1
+        &:hover
+            border: 3px solid #43ffb1
+            
+    .button1
+        background: dodgerblue
+        color: dodgerblue
+        border-radius: 100% 0 0 0
+    .button2
+        background: #FF5643
+        color: #FF5643
+        border-radius: 0 100% 0 0
+    .button3
+        background: #FEEF33
+        color: #FEEF33
+        border-radius: 0 0 0 100%
+    .button4
+        background: #BEDE15
+        color: #BEDE15
+        border-radius: 0 0 100% 0
+
+.difficulty
+    margin: 0 0 50px 0 
+    width: 350px
+    display: flex
+    justify-content: center
+    flex-direction: column
+    h2
+        text-align: center
+    .difficultyButtonWrapper
+        display: flex
+        justify-content: space-around
+
+.starter
+    display: flex
+    height: 30px
+    align-items: center
+    margin: 0 0 30px 40px 
+
+    button
+        margin: 0 10px 0 0
+
+.gameField
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap-reverse
+
+.accept
+    border: 6px solid lightgreen
+    transition: 0.3s
+   
